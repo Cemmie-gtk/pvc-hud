@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$alpha" "1"
+	"$basetexture" "vgui/replay/thumbnails/b4nny"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}

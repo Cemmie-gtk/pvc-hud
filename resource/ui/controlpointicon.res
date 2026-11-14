@@ -1,0 +1,124 @@
+"resource/ui/controlpointicon.res"
+{
+	"ControlPointIcon"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"	  								"ControlPointIcon"
+		"xpos"		    							"0"
+		"ypos"		    							"0"
+		"zpos"		    							"2"
+		"wide"		    							"16"
+		"tall"		    							"16"
+		"visible"	   						 		"1"
+		"enabled"	    							"1"
+	}
+	
+	"Countdown"
+	{
+		"ControlName"								"ControlPointCountdown"
+		"fieldName"									"Countdown"
+		"xpos"		   								"0"
+		"ypos"		    							"0"
+		"zpos"		    							"4"
+		"wide"		    							"24"
+		"tall"		    							"24"
+		"visible"	    							"1"
+		"enabled"	    							"1"
+	}	
+
+	"CapPlayerImage"
+	{
+		"ControlName"								"ImagePanel"		
+		"fieldName"	  								"CapPlayerImage"
+		"xpos"		   						 		"0"
+		"ypos"		    							"2"
+		"zpos"		    							"3"
+		"wide"		    							"5"
+		"tall"		    							"9"
+		"visible"	    							"0"
+		"enabled"	    							"1"
+		"image"		    							"capture_icon"
+		"scaleImage"								"1"
+	}
+
+	"CapNumPlayers"
+	{	
+		"ControlName"		  						"Label"
+		"fieldName"		    						"CapNumPlayers"
+		"font"			      						"medium8"
+		"xpos"			      						"6.7"
+		"ypos"			      						"-2.5"
+		"zpos"			      						"3"
+		"wide"			      						"24"
+		"tall"			      						"22"
+		"autoResize"		  						"0"
+		"pinCorner"		    						"0"
+		"visible"		      						"1"
+		"enabled"		      						"1"
+		"labelText"		    						"#ControlPointIconCappers"
+		"textAlignment"								"west"
+		"dulltext"		    						"0"
+		"brighttext"		  						"0"
+	}
+
+	"OverlayImage"
+	{
+		"ControlName"	    						"ImagePanel"		
+		"fieldName"	      							"OverlayImage"
+		"xpos"		        						"18"
+		"ypos"		        						"0"
+		"zpos"		        						"4"
+		"wide"		        						"14"
+		"tall"		        						"14"
+		"visible"	        						"1"
+		"enabled"	        						"1"
+		"image"		        						"capture_icon"
+		"scaleImage"	    						"1"
+	}
+	
+	"CPTimerLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"		 							"CPTimerLabel"
+		"xpos"			   							"0"
+		"ypos"			    						"0"
+		"zpos"			    						"0"
+		"wide"			    						"9"
+		"tall"			    						"20"
+		"visible"		    						"0"
+		"enabled"		    						"1"
+		"labelText"		  							"60"
+		"textAlignment"								"center"
+		"dulltext"		  							"0"
+		"brighttext"	  							"0"
+		"wrap"			    						"0"
+		"font"			    						"medium18"
+		"font_minmode"								"medium18"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+	}
+				
+	"CPTimerBG"
+	{
+		"ControlName"	  							"Panel"
+		"fieldName"		  							"CPTimerBG"
+		"xpos"			   					 		"0"
+		"ypos"			    						"0"
+		"zpos"			 							"-1"
+		"wide"		     					 		"66"
+		"tall"		      							"13"
+		"visible"		    						"0"
+		"enabled"		    						"1"
+		"image"			    						"../sprites/obj_icons/icon_obj_timer"
+		"scaleImage"	  							"1"
+		
+		if_mvm
+		{
+			"visible"								"0"
+		}
+
+	}
+}
