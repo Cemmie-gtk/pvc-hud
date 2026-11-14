@@ -1,6 +1,6 @@
-<p align="center">
-**pvc-hud / [screenshots](https://imgur.com/a/QIJWF5F)**
-</p>
+<div align="center">
+## pvc-hud / [screenshots](https://imgur.com/a/QIJWF5F)
+</div>
 
 <img width="1920" height="425" alt="banner" src="https://github.com/user-attachments/assets/637f54cc-5ef4-4c3c-afdd-d9aba6d3f480" />
 
